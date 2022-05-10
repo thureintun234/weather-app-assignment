@@ -1,0 +1,66 @@
+.home-main {
+  padding-top: 10px;
+  background-image: url('../assets/snowy.jpg');
+  background-size: cover;
+  height: 99vh;
+  color: rgb(60, 155, 155);
+  align-items: center;
+}
+
+.error-msg {
+  color: red;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.search-form-main {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.data-field {
+  background-color: transparent;
+  /* border: 3px solid rgb(209, 207, 207); */
+  border: 3px solid rgba(0, 0, 0, 0.1);
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.1);
+  opacity: 0.8;
+  color: black !important;
+}
+
+.search-form {
+  width: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.search-form input {
+  height: 35px;
+  border: 1px solid rgb(149, 209, 209);
+  outline: none;
+  color: rgb(90, 136, 136) !important;
+  font-size: 20px;
+  float: left;
+}
+
+.search-form button:hover {
+  background-color: rgb(122, 175, 175);
+  color: white;
+}
+
+.search-form input::placeholder {
+  color: rgb(149, 209, 209);
+}
+
+.search-form button {
+  background-color: rgb(149, 209, 209);
+  color: white;
+  cursor: pointer;
+  border: gray;
+  font-size: 20px;
+  height: 40px;
+}
